@@ -1,6 +1,6 @@
 import { Vector } from "../types";
 import { GameElement } from "./GameElement";
-import { MobileElement } from "./MobileElement";
+import { MobileElement } from "../interfaces/MobileElement";
 
 export class Ball extends GameElement implements MobileElement {
   private ballSpeed: Vector;
